@@ -6,7 +6,9 @@ namespace UserRegistration
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to User Registration Validation Program");
+            UserFieldValidation userFieldValidation = new UserFieldValidation();
+            userFieldValidation.ValidateUser();
         }
     }
 }
